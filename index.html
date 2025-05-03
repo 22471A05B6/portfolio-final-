@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Patan Hashmi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="brand">Portfolio</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="h">
+        <h1>Patan Hashmi</h1>
+        <p>Welcome to my personal portfolio. I am a passionate web developer who loves creating beautiful and functional websites.</p>
+        <a href="#projects" class="btn-primary">View My Work</a>
+      </div>
+      <div class="himg">
+        <img src="profile.jpg" alt="Profile Image">
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="profile.jpg" alt="P. Hashmi">
+        </div>
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>Hello! I'm <strong>P. Hashmi</strong>, a passionate Web Developer with a strong foundation in Angular, React, and Android development.</p>
+          <p>I focus on building responsive websites and apps that offer a seamless user experience.</p>
+          <p>My goal is to continue learning, growing, and delivering high-quality digital solutions that make a difference.</p>
+          <a href="./files/Resume.pdf" class="btn-resume" target="_blank">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-individual">
+      <h2>My Skills</h2>
+      <div class="skill-cards">
+        <!-- Repeat this div for each skill -->
+        <div class="skill-card-single">HTML5</div>
+        <div class="skill-card-single">CSS3</div>
+        <div class="skill-card-single">JavaScript</div>
+        <div class="skill-card-single">React.js</div>
+        <div class="skill-card-single">Node.js</div>
+        <div class="skill-card-single">Python</div>
+        <div class="skill-card-single">Git & GitHub</div>
+        <div class="skill-card-single">MySQL</div>
+        <div class="skill-card-single">MongoDB</div>
+        <div class="skill-card-single">Problem Solving</div>
+        <div class="skill-card-single">Teamwork</div>
+        <div class="skill-card-single">Communication</div>
+        <div class="skill-card-single">Time Management</div>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="healthy-habits(p2).avif" alt="Project 1">
+          <div class="card-content">
+            <h3>Healthy Habits for Life</h3>
+            <p>Promotes better living through balanced nutrition, exercise, good sleep, and mental wellness.</p>
+            
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Career-Guidance(p3).jpg" alt="Project 2">
+          <div class="card-content">
+            <h3>Career Guidance</h3>
+            <p>A platform offering career counseling guidance for students, helping them choose their paths.</p>
+            
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="capture(p4).jpg" alt="Project 3">
+          <div class="card-content">
+            <h3>Capture the Moments</h3>
+            <p>A simple Android app to instantly capture, save, and relive favorite memories.</p>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificates" class="certifications">
+      <h2>Certifications</h2>
+      <div class="certification-container">
+        <div class="cert-card">
+          <img src="nptel.1.jpg" alt="Certification 1">
+          <div class="cert-content">
+            <h3>The Joy Of Computing Using Python</h3>
+            <a href="./nptel.1.jpg" target="_blank" class="btn-primary">View Certificate</a>
+
+           
+          </div>
+        </div>
+    
+        <div class="cert-card">
+          <img src="python(basic).jpg" alt="Certification 2">
+          <div class="cert-content">
+            <h3>Python(Basic)</h3>
+            <a href="python(basic).jpg"target="_main" class="btn-primary">View Certificate</a>
+          </div>
+        </div>
+    
+        <div class="cert-card">
+          <img src="nptel.2.jpg" alt="Certification 3">
+          <div class="cert-content">
+            <h3>Internet Of Things</h3>
+            <a href="nptel.2.jpg"target="_main" class="btn-primary">View Certificate</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <img src="hackthon.jpg" alt="Certification 3">
+          <div class="cert-content">
+            <h3>Hackthon</h3>
+            <a href="hackthon.jpg"target="_main" class="btn-primary">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/hashmi-patan-670865276/" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/22471A05B6" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 P. Hashmi. All Rights Reserved.</p>
+  </footer>
+  <script>
+    // Toggle menu
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      document.getElementById('nav-links').classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
